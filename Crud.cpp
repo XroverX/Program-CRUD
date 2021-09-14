@@ -1,8 +1,8 @@
-# Program-CRUD
+/*# Program-CRUD
 CRUD adalah singkatan yang berasal dari Create, Read, Update, dan Delete, 
 dimana keempat istilah tersebut merupakan fungsi utama yang nantinya diimplementasikan  ke dalam basis data.  
+*/
 
-{
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -242,5 +242,4 @@ void deleteRecord(fstream &data){
 		tempKTP = readData(dataSementara,i);
 		writeData(data,i,tempKTP);
 	}
-}
 }
